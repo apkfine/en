@@ -1,0 +1,232 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+/*all header items start here*/
+header{
+background: black;
+color: white;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+  padding: 5px;
+}
+h1{
+  position: absolute;
+  left: 135px;
+  font-size: 25px;
+  color: red;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.manu{
+  display: none;
+  font-family: "Istok Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.manu.active{
+  display: block;
+}
+.fa-bars{
+  padding: 10px;
+  cursor: pointer;
+}
+
+.manu ul{
+list-style: none;
+}
+.manu a:hover{
+  
+  color: red;
+  border-radius: 4px;
+}
+.manu a{
+ text-decoration: none;
+ color: white;
+}
+/*all header items end here*/
+/*start search here*/
+.search-bar{
+  text-align: center;
+  margin-top: 5px;
+}
+.search-bar input{
+  padding: 3px;
+  border-radius: 5px ; 
+  max-width: 287px;
+  height: auto;
+}
+/*end search here*/
+.lastest-version{
+  text-transform: uppercase;
+  margin-top: 5px;
+  padding: 3px;
+
+  text-align: center;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ color: #2d3559e4;
+}
+.all-post a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  position: absolute;
+  padding: 5px;
+}
+.all-post ul{
+  list-style: none;
+}
+.all-post img{
+  max-width: 65px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+.gap-post{
+ margin: 9px;
+ margin-left: 0;
+}
+.gap-post a{
+  font-family: "Istok Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+ol, ul {
+  padding-left: 10px;
+}
+.gap-post span{
+  font-size: 12px;
+ display: block;
+ opacity: 0.7;
+}
+/*big post start here*/
+
+#editors{
+  text-decoration: underline;
+  padding-left: 5px;
+  text-transform: uppercase;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 8px
+ 
+}
+#editors b{
+      color: #2d3559e4;
+}
+.editor{
+    text-align: center;
+}
+.banner-card{
+  position: relative;
+}
+.banner-card img{
+  max-width: 288px;
+  height: auto;
+  border-radius: 13px;
+}
+.banner-text{
+  position: absolute;
+  top: 6%;
+  color: #fff;
+  padding: 20px;
+  background-color: rgba(179, 24, 24, 0.26);
+  color: rgb(255, 255, 255);
+  left: 0px;
+  box-shadow: 0 0 100px 0;
+  border-radius: 11px;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.wrapper{
+  padding: 5px;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+}
+.wrapper::-webkit-scrollbar{
+  width: 0;
+}
+/*big post end here*/
+
+.para-house img{
+display: block;
+  margin: 0 auto;
+  max-width: 95px;
+  height: auto; 
+  padding: 6px; 
+  border-radius: 20px;
+}
+.para-house{
+font-family: "Istok Web", sans-serif;
+font-weight: 400;
+font-style: normal;
+padding: 10px;
+}
+#btn {
+text-align: center;
+ padding: 8px;
+}
+#btn button{
+  padding: 10px;
+  border-radius: 8px; 
+  border: none;
+}
+#btn button:hover{
+  background: darkcyan; 
+  color: white;
+}
+/*all categories below end here*/
+/*footer start here*/
+footer{
+text-align: center;
+padding: 8px;
+color: white;
+background: #83969d;
+font-family: "Istok Web", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.fa-brands{
+  color: white;
+}
+/*footer end here*/
+
+@media screen and (min-width:375px) {
+    header h1{
+    left: 146px;
+  }
+  
+
+@media screen and (min-width:425px) {
+ 
+  
+  header h1{
+    left: 174px;
+  }
+}
+@media screen and (min-width:768px) {
+ 
+  
+  header h1{
+    left: 336px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
