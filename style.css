@@ -199,6 +199,41 @@ font-style: normal;
   color: white;
 }
 /*footer end here*/
+.drop-container ul{
+text-align: center;
+margin: 10px;
+
+}
+.drop-container button{
+     padding: 13px;
+     border-radius: 10px;
+     border: none;
+  background: #ae1d7a;
+        color: white;
+}
+
+.drop-content{
+    display: none;
+     
+}
+.drop-content button{
+   padding: 7px;
+   border-radius: 10px;
+   border: none;
+ 
+}
+
+.drop-container:hover .drop-content{
+    display: block;
+      
+}
+.btn-colors-1{
+    background:#4d2cae! important ;
+}
+.btn-colors-2{
+     background: #0083ae! important ;
+}
+
 
 @media screen and (min-width:375px) {
     header h1{
