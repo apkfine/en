@@ -171,19 +171,7 @@ font-weight: 400;
 font-style: normal;
 padding: 10px;
 }
-#btn {
-text-align: center;
- padding: 8px;
-}
-#btn button{
-  padding: 10px;
-  border-radius: 8px; 
-  border: none;
-}
-#btn button:hover{
-  background: darkcyan; 
-  color: white;
-}
+
 /*all categories below end here*/
 /*footer start here*/
 footer{
@@ -199,6 +187,8 @@ font-style: normal;
   color: white;
 }
 /*footer end here*/
+
+/*drop down button start here*/
 .drop-container ul{
 text-align: center;
 margin: 10px;
@@ -208,8 +198,8 @@ margin: 10px;
      padding: 13px;
      border-radius: 10px;
      border: none;
-  background: #ae1d7a;
-        color: white;
+  background:#843721;
+  color: white;
 }
 
 .drop-content{
@@ -234,7 +224,7 @@ margin: 10px;
      background: #0083ae! important ;
 }
 
-
+/*drop down button end here*/
 @media screen and (min-width:375px) {
     header h1{
     left: 146px;
