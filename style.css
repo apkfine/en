@@ -171,6 +171,9 @@ font-weight: 400;
 font-style: normal;
 padding: 10px;
 }
+.para-house p{
+ text-align: justify;
+}
 
 /*all categories below end here*/
 /*footer start here*/
@@ -229,24 +232,24 @@ margin: 10px;
 /*table start here........*/
 }
 table{
-    text-align: left;
     width: 100%;
-    border: 1px solid #ddd;
     border-collapse: collapse;
-    margin: 0;
-     padding: 0;
+    }
+thead{
+  text-align: left;      
 }
 th{
   background: #f5f5f5;
   padding: 5px;
-  border: 1px solid #ddd;
-}
+  }
 tr,td{
-   border: 1px solid #ddd; 
    padding: 5px; 
 }
 table tbody tr:nth-child(even){
     background: #f5f5f5;
+}
+table tbody tr:nth-child(odd){
+    background: #8098ff1c;
 }
 /*table end here........*/
 @media screen and (min-width:375px) {
