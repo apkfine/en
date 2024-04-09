@@ -200,7 +200,7 @@ margin: 10px;
      padding: 12px;
      border-radius: 10px;
      border: none;
-  background:#843721;
+  background: #ff2b74;
   color: white;
 }
 
@@ -251,6 +251,65 @@ table tbody tr:nth-child(odd){
     background: #8098ff1c;
 }
 /*table end here........*/
+
+/* ads button design start here*/
+.post-img-dl-container img{
+  max-width: 80px; 
+  height: auto; 
+  border-radius: 12px;
+}
+.post-img-dl-container{
+    display: flex;
+    padding: 10px;
+    
+    gap: 10px;
+    font-family: "Raleway", sans-serif; font-optical-sizing: auto; font-weight: <weight>; font-style: normal;
+    
+}
+.visaul-lite span{
+    opacity: 0.6;
+}
+#flex-id-none{
+   font-size: small; 
+}
+#star-icon-container{
+    font-size: 12px;
+    padding: 3px;
+}
+#star-icon-container i{
+    color: #ff2b74b5;
+}
+
+.fake-btn-ads button{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 18px;
+    background: white;
+     color: #ff2b74b5;
+}
+.fake-btn-ads button:hover{
+    background: #0018ffbd;
+    color: white;
+}
+.bg-btn-full button{
+    background: white;
+    border: 2px solid;
+    color: #ff2b74b5;
+}
+.fake-btn-ads{
+  padding: 10px;
+}
+.fa-cloud-arrow-down{
+    font-size: 17px;
+}
+
+.active-btn button{
+    background: #ff2b74b5;
+    color: white;
+}
+/* ads button design end here*/
+
 @media screen and (min-width:375px) {
     header h1{
     left: 146px;
