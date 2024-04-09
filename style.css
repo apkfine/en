@@ -277,7 +277,7 @@ table tbody tr:nth-child(odd){
     padding: 3px;
 }
 #star-icon-container i{
-    color: #ff2b74b5;
+    color: #ff2b74;
 }
 
 .fake-btn-ads button{
@@ -286,7 +286,7 @@ table tbody tr:nth-child(odd){
     border: 2px solid;
     border-radius: 18px;
     background: white;
-     color: #ff2b74b5;
+   color: #ff2b74;
 }
 .fake-btn-ads button:hover{
     background: #0018ffbd;
@@ -295,7 +295,7 @@ table tbody tr:nth-child(odd){
 .bg-btn-full button{
     background: white;
     border: 2px solid;
-    color: #ff2b74b5;
+    color: #ff2b74;
 }
 .fake-btn-ads{
   padding: 10px;
@@ -305,7 +305,7 @@ table tbody tr:nth-child(odd){
 }
 
 .active-btn button{
-    background: #ff2b74b5;
+    background: #ff2b74;
     color: white;
 }
 /* ads button design end here*/
