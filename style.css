@@ -53,13 +53,13 @@ list-style: none;
 /*start search here*/
 .search-bar{
   text-align: center;
-  margin-top: 5px;
+  padding: 7px;
 }
 .search-bar input{
-  padding: 3px;
+  padding: 8px;
   border-radius: 5px ; 
-  max-width: 287px;
-  height: auto;
+  width: 100%;
+  font-size: 16px;
 }
 /*end search here*/
 .lastest-version{
