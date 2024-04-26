@@ -315,10 +315,10 @@ table tbody tr:nth-child(odd){
 /*app login code start here*/
 .code-container{
     background: #ddd;
-    padding: 7px;
+    padding: 10px;
 }
 .codehere{
-padding: 18px;
+padding: 7px;
 border-left: 6px solid green;
 background: white;
 }
