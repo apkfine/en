@@ -310,6 +310,22 @@ table tbody tr:nth-child(odd){
 }
 /* ads button design end here*/
 
+
+
+/*app login code start here*/
+.code-container{
+    background: #ddd;
+    padding: 7px;
+}
+.codehere{
+padding: 18px;
+border-left: 6px solid green;
+background: white;
+}
+/*app login code end here*/
+
+
+
 @media screen and (min-width:375px) {
     header h1{
     left: 146px;
@@ -340,3 +356,4 @@ table tbody tr:nth-child(odd){
 
 
 
+  
