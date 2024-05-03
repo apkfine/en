@@ -128,7 +128,7 @@ ol, ul {
   position: relative;
 }
 .banner-card img{
-  max-width: 288px;
+  max-width: 10000000rem;
   height: auto;
   border-radius: 13px;
 }
@@ -316,6 +316,7 @@ table tbody tr:nth-child(odd){
 .code-container{
     background: #ddd;
     padding: 10px;
+    border-radius: 10px;
 }
 .codehere{
 padding: 7px;
